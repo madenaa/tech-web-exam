@@ -1,0 +1,68 @@
+* { box-sizing: border-box; }
+body {
+	background: rgb(65, 47, 69);
+	color: #111;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a {
+	color: rgb(126, 17, 17);
+	text-decoration: none;
+}
+p {	text-align: center; }
+.add {
+	opacity: 60%;
+}
+.add:hover {
+	opacity: 100%;
+}
+.container { padding: 3%; }
+.container .column {
+	margin-right: 1%;
+	padding: 10px;
+	border-radius: 20px;
+	float: left;
+	height: 95%;
+}
+.column:last-of-type { margin-right: 0; }
+.container .column.background1 {
+	background-color: rgb(61, 114, 140);
+	border: solid 5px rgb(6, 85, 133);
+}
+.container .column.background2 {
+	background-color: rgb(160, 40, 169);
+	border: solid 5px rgb(145, 15, 128);
+}
+.container .column.background3 {
+	background-color: rgb(169, 160, 37);
+	border: solid 5px rgb(187, 176, 15);
+}
+.container .column.background4 {
+	background-color: rgb(193, 61, 10);
+	border: solid 5px rgb(211, 133, 96);
+}
+.column-title {
+	color: rgb(169, 0, 0);
+	font-weight: bold;
+	font-size: 1.5em;
+	text-align: center;
+}
+.column-title a {
+	color: rgb(0, 0, 0);
+}
+.card {
+	margin-bottom: 20px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	opacity: 0.5;
+}
+.card:last-of-type { margin-bottom: 0; }
+.card:hover {
+	transform: scale(1.05);
+	opacity: 1;
+}
+.container .card.background1 { background-color: rgb(144, 168, 240); }
+.container .card.background2 { background-color: rgb(197, 112, 165); }
+.container .card.background3 { background-color: rgb(230, 222, 116); }
+.container .card.background4 { background-color: rgb(193, 123, 101); }
+
